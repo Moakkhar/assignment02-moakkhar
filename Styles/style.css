@@ -1,0 +1,427 @@
+/* font setup */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.body{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/* shared styles */
+.btn-primary {
+    list-style: none;
+    background-color: rgb(230, 83, 60);
+    padding: 8px 40px;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+
+/* navbar styles start  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    color: #ffffff;
+    padding: 3rem 6.25rem;
+    border: 3px solid tomato;
+}
+.nav-title{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.nav-items{
+    display: flex;
+    border: 1px solid rgb(79, 79, 79);
+    gap: 2rem;
+    padding: 0px 4px 0px 0px;
+    border-radius: 1rem;
+    align-items: center;
+    
+}
+.nav-item{
+    list-style: none;
+    
+}
+.nav-home{
+    list-style: none;
+    background-color: rgb(230, 83, 60);
+    padding: .32rem 1.25rem;
+    border-radius: 1rem;
+}
+
+.hamburger{
+    display: none;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: #212121;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(60, 60, 60, 0) 100%); */
+    color: #ffffff;
+    padding: 1.25rem 6.25rem 0px;
+    border: 4px solid tomato;
+    height: 500px;
+    
+}
+.banner-items{
+    max-width: 31.25rem;
+    padding: 12.25rem 1.25 0px;
+    border: 3px solid blue;
+    margin-top: 70px;
+     
+}
+.banner-description{
+    padding: 10px 0px 20px;
+}
+
+.btn-secondary{
+    list-style: none;
+    background-color: #212121;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 8px 40px;
+    border-radius: 1rem;
+}
+
+.banner-img-con{  
+    border: 3px solid tomato;
+    position: relative;
+}
+
+
+
+.banner-image{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+.img-steeker-1{
+    width: 8.44rem;
+    background-color: rgba(0, 0, 0, 0.363);
+    font-size: 13px;
+    border-radius: 8px;
+    padding: .63rem 5px;
+    position: absolute;
+    right: -2rem;
+    top: 9.38rem;
+    z-index: 1;
+}
+.img-steeker-2{
+    width: 7.8rem;
+    padding: .63rem .63rem .63rem 2rem;
+    background-color:  rgba(0, 0, 0, 0.363);
+    font-size: 13px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 9.38rem;
+    right: 3.13rem;
+    z-index: 1;
+    /* left: 30px; */
+    position: relative;
+}
+.five-h{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.three-h{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.red-ball{
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 3.125rem;
+    background-color: rgb(230, 83, 60);
+    position: absolute;
+    z-index: 2;
+    bottom: 6.5rem;
+    left: -2.81rem;
+    
+}
+
+/* habits section start hear  */
+.habits-containar{
+    background-color: black;
+    padding-top: 4rem;
+}
+.habits{
+    text-align: center;
+    color: #ffffff;
+}
+.habit-detail{
+    padding: .625rem 31.25rem;
+}
+.habit-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 2rem;
+    color: #ffffff;
+    padding: 2.5rem;
+}
+.habit-image{
+    border-radius: 5.625rem;
+    margin-bottom: .625rem;
+    
+}
+
+/* run section start hear  */
+
+.run-containar{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid yellowgreen;
+    max-width: 65rem;
+    margin: 0 auto;
+    background-color: #212121;
+    color: #ffffff;
+    border-radius: 1.25rem;
+    align-items: center;
+    gap: 3.125rem;
+}
+.run-content{
+    max-width: 400px;
+    border: 2px solid red;
+    padding-left: 20px;
+}
+.run-description{
+    padding: 10px 0px 20px;
+
+}
+
+.run-image{
+    max-width: 31.25rem;
+    border: 2px solid red;
+    
+}
+.run-image> img{
+    width: 100%;
+    padding: 1.25rem;
+    border-radius: 3.125rem;
+}
+
+/* bmi section start hear  */
+.bmi{
+    color: #ffffff;
+    border: 3px solid red;
+    padding: 2rem 25rem 1.25rem 12.5rem;
+    margin-bottom: .25rem;
+}
+.bmi-containar{
+    background-color: #212121;
+    display: flex;
+    color: #ffffff;
+    gap: 3.125rem;
+    padding: 1.25rem 5rem;
+    border: 3px solid tomato;
+}
+.bmi-chart{
+    border: 3px solid greenyellow;
+    margin-left: 100px;
+
+}
+table{
+    color: #ffffff;
+    border-collapse: collapse;
+    margin-top: 20px;
+    max-width: 300px;
+    
+}
+td, th{
+    border: solid white;
+    padding: 10px;
+    
+}
+.clalc-your-bmi{
+    max-width: 500px;
+    margin-left: 300px;
+    border: 3px solid magenta;
+}
+
+.bmi-description {
+    padding: 10px 150px 20px 0;
+}
+
+.input-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-bottom: 10px;
+    
+}
+
+
+input{
+    background-color: #212121;
+    border: 1px solid #ffffff;
+    width: 190px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.activity {
+    width: 400px;
+}
+
+/* extention section start  */
+.success{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 0px 50px;
+}
+
+.success-title{
+    font-size: 2rem;
+}
+
+.success-parent{
+    display: flex;
+    align-items: center;
+    border: 3px solid blue;
+    border-radius: 40px;
+    background-color: #212121;
+}
+
+.testimonial{
+    
+    border: 4px solid red;
+}
+
+.before-after{
+    margin: 20px;
+    width: 500px;
+    height: 300px;
+    
+
+}
+
+.before-after> img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+
+/* meet section start hear  */
+.meet-containar{
+    color: #ffffff;
+    padding-top: 3.125rem;
+    padding: 1.25rem 21.25rem 3.125rem;
+    
+}
+.meet-title, .meet-description{
+    text-align: center;
+    
+}
+
+.meet-description{
+    padding: 1.25rem 6.25rem 1.25rem;
+}
+
+.meet-img-containar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 2rem;
+    background-color: #212121;
+    border: 4px solid tomato;
+    padding: 2rem 2rem;
+    border-radius: 2.25rem;
+
+}
+
+.meet-img-box{
+    width: 12.5rem;
+    height: 9.375rem;
+    border: 2px solid red;
+    border-radius: 2.5rem;
+    position: relative;
+}
+
+.meet-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2.5rem;
+    border: 2px solid blue;
+    
+}
+
+.name {
+    position: absolute;
+    left: 20px;
+    bottom: 25px;
+    z-index: 5;
+}
+.trainer{
+    position: absolute;
+    left: 20px;
+    bottom: 8px;
+    z-index: 4;
+}
+
+/* fitness section start hear  */
+.fitness-containar{
+    background-color: #212121;
+    display: flex;
+    color: #ffffff;
+    gap: 10rem;
+    padding: 3.125rem 15rem;
+    margin: 0 auto;
+}
+.fitness{
+    max-width: 350px;
+    border: 3px solid red;
+    
+
+}
+
+.fitness-title{
+    font-size: 4.375rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.get-title, .get-title-tow{
+    padding-bottom: 5px;
+}
+.fitness-item{
+    list-style: none;
+    padding: 5px;
+}
+
+/* footer section start hear  */
+
+footer{
+    background-color: #212121;
+    padding-top: 1.25rem;
+}
+.footer{
+    text-align: center;
+    color: #ffffff;
+    border-top: 1px solid #817f7f;
+    padding: 1.25rem;
+    margin: 0px 12.5rem;
+}

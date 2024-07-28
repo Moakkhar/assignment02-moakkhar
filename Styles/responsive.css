@@ -1,0 +1,106 @@
+
+@media screen and (max-width: 570px) {
+.navbar{
+    padding: 20px;
+}
+.nav-items{
+    display: none;
+
+}
+.hamburger{
+    display: block;
+}
+.banner-container{
+    flex-direction: column;
+    height: auto;
+    padding: 0rem 3rem 0px 3rem;
+}
+.banner-img-con{
+    height: 450px;
+}
+.habit-images{
+    grid-template-columns: repeat(1, 1fr);
+   
+
+}
+.habit-detail{
+    padding: .625rem 5rem;
+}  
+
+.run-containar{
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0px 20px;
+    
+}
+
+
+.bmi{
+    padding: 2rem 2rem 1.25rem;
+    margin-bottom: .25rem;
+}
+
+.bmi-containar{
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.bmi-chart{
+    margin-left: 10px;
+
+}
+
+.clalc-your-bmi{
+    margin-left: 10px;
+}
+.activity{
+    width: 390px;
+}
+
+.success-parent{
+    flex-direction: column;
+
+}
+.before-after{
+    margin: 20px;
+    width: 390px;
+    height: 300px;
+}
+
+.meet-containar{
+    padding: 10px;
+}
+   
+.meet-img-containar{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem 1rem;
+    gap: 1rem;
+
+}
+
+.meet-img-box{
+    width: 16.5rem;
+    height: 13.375rem;
+    
+}
+
+
+.fitness-containar{
+   flex-direction: column;
+    gap: 1rem;
+    padding: 2.125rem 4rem 3rem 3rem;
+    
+}
+
+
+
+.footer{
+    text-align: center;
+    color: #ffffff;
+    border-top: 1px solid #817f7f;
+    padding: 1.25rem;
+    margin: 0px 2rem;
+}
+
+
+}
