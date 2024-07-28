@@ -13,10 +13,18 @@
 .banner-container{
     flex-direction: column;
     height: auto;
-    padding: 0rem 3rem 0px 3rem;
+    padding: 0rem 3rem 0px;
 }
+
+.banner-items{
+    margin-top: 20px;
+}
+.banner-title{
+    font-size: 36px;
+}
+
 .banner-img-con{
-    height: 450px;
+    height: 600px;
 }
 .habit-images{
     grid-template-columns: repeat(1, 1fr);
