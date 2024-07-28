@@ -280,7 +280,7 @@ td, th{
 input{
     background-color: #393939;
     border: 1px solid #ffffff;
-    width: 190px;
+    width: 195px;
     padding: 5px;
     border-radius: 5px;
 }
@@ -398,12 +398,13 @@ input{
     margin: 0 auto;
 }
 .fitness{
-    max-width: 350px;
+    
     border: 3px solid red;
     
-
 }
-
+.fitness{
+    width: 350px;
+}
 .fitness-title{
     font-size: 4.375rem;
     font-weight: 800;
