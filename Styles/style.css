@@ -43,9 +43,11 @@
 .btn-primary {
     list-style: none;
     background-color: rgb(230, 83, 60);
-    padding: 8px 40px;
-    border-radius: 1rem;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
     color: #ffffff;
+    font-size: 1.13rem;
+    font-weight: 600;
 }
 
 
@@ -121,9 +123,11 @@
     list-style: none;
     background-color: #212121;
     color: #ffffff;
+    font-size: 1.13rem;
+    font-weight: 600;
     border: 1px solid #ffffff;
-    padding: 8px 40px;
-    border-radius: 1rem;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
 }
 
 .banner-img-con{  
@@ -200,8 +204,13 @@
     color: #ffffff;
 }
 
+.habit-title{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
 .habit-detail{
-    padding: .625rem 31.25rem;
+    padding: .625rem 16rem;
 }
 
 .habit-images{
@@ -336,14 +345,14 @@ input{
     margin: 0 auto;
     text-align: center;
     color: #ffffff;
-    padding: 50px 0px 50px;
+    padding: 3rem 0px 3rem;
 }
 
 .success-title{
     font-size: 2rem;
 }
 .success-description{
-    padding: 5px 150px;
+    padding: 5px 9.38rem;
 }
 .success-parent{
     display: flex;
@@ -375,8 +384,8 @@ input{
 /* meet section start hear  */
 .meet-containar{
     color: #ffffff;
-    padding-top: 3.125rem;
-    padding: 1.25rem 21.25rem 3.125rem; 
+    padding: 1.25rem 17.25rem 3.125rem;
+    border: 4px solid blue;
 }
 
 .meet-title, .meet-description{
@@ -384,17 +393,19 @@ input{
 }
 
 .meet-description{
-    padding: 1.25rem 6.25rem 1.25rem;
+    padding: 1.25rem 5.5rem;
 }
 
 .meet-img-containar{
+    max-width: 900px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     background-color: rgb(26, 26, 26);
-    padding: 2rem 2rem;
+    padding: 2rem;
     border-radius: 2.25rem;
+    border: 3px solid red;
 
 }
 
@@ -429,15 +440,18 @@ input{
 .fitness-containar{
     background-color: rgb(26, 26, 26);
     display: flex;
+    align-content: center;
     color: #ffffff;
-    gap: 10rem;
-    padding: 3.125rem 15rem;
-    margin: 0 auto;
+    gap: 1rem;
+    padding: 3.125rem 2rem ;
+    border: 3px solid tomato;
 }
 
 
 .fitness{
-    width: 350px;
+    max-width: 400px;
+    margin:10px 100px;
+    border: 4px solid red;
 }
 
 .fitness-title{
