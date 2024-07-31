@@ -262,6 +262,10 @@
     padding: 2rem 25rem 1.25rem 17rem;
     margin-bottom: .25rem;
 }
+.bmi-title{
+    font-size: 3rem;
+    font-weight: 800;
+}
 
 .bmi-containar{
     background-color: #222222;
@@ -338,7 +342,9 @@ input{
 .success-title{
     font-size: 2rem;
 }
-
+.success-description{
+    padding: 5px 150px;
+}
 .success-parent{
     display: flex;
     align-items: center;
