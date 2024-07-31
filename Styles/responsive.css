@@ -19,8 +19,9 @@
 .banner-items{
     margin-top: 20px;
 }
-.banner-title{
-    font-size: 36px;
+.banner-title, .Miama-normal{
+    font-size: 2.25rem;
+    font-weight: 900;
 }
 
 .banner-img-con{
@@ -117,8 +118,12 @@
 .fitness-containar{
    flex-direction: column;
     gap: 1rem;
-    padding: 2rem;
+    padding: 1rem 2rem;
     
+}
+.fitness{
+    max-width: 300px;
+    margin:10px;
 }
 
 
