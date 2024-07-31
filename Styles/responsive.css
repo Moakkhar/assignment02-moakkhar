@@ -1,7 +1,7 @@
 
 @media screen and (max-width: 570px) {
 .navbar{
-    padding: 20px;
+    padding: 20px 40px;
 }
 .nav-items{
     display: none;
@@ -26,6 +26,13 @@
 .banner-img-con{
     height: 600px;
 }
+.img-steeker-2{
+    right: 40px;
+}
+.red-ball{
+    left: -2.1rem;
+}
+
 .habit-images{
     grid-template-columns: repeat(1, 1fr);
    
@@ -60,9 +67,6 @@
 
 .clalc-your-bmi{
     margin-left: 10px;
-}
-.activity{
-    width: 390px;
 }
 
 .success-parent{
