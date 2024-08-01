@@ -2,8 +2,8 @@
 @media screen and (max-width: 570px) {
 
 .btn-primary, .btn-secondary {
-    padding: .8rem 2rem;
-    font-size: .8rem;
+    padding: .8rem 1.8rem;
+    font-size: .6rem;
     font-weight: 400;
  }
   
@@ -75,7 +75,7 @@
 
 .run-button{
     font-weight: 600;
-    padding: .8rem 7.5rem;
+    padding: .8rem 7rem;
 }
 
 .bmi{
@@ -101,12 +101,12 @@
 }
 
 input{
-    width: 150px;   
+    width: 200px;   
 }
 
 
 .activity {
-    width: 310px;
+    width: 408px;
 }
 
 .fa-caret-down{
@@ -178,6 +178,47 @@ input{
     padding: 1.25rem;
     margin: 0px 2rem;
 }
+
+
+}
+
+
+@media screen and (max-width: 425px){
+    input{
+        width: 150px;   
+    }
+    
+    
+    .activity {
+        width: 308px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 375px){
+    input{
+        width: 128px;   
+    }
+    
+    
+    .activity {
+        width: 265px;
+    }
+
+    
+}
+
+@media screen and (max-width: 320px){
+    input{
+        width: 100px;   
+    }
+    
+    
+    .activity {
+        width: 208px;
+    }
 
 
 }
