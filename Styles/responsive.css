@@ -1,5 +1,13 @@
 
 @media screen and (max-width: 570px) {
+
+.btn-primary, .btn-secondary {
+    padding: .8rem 2rem;
+    font-size: .8rem;
+    font-weight: 400;
+ }
+  
+
 .navbar{
     padding: 20px 40px;
 }
@@ -13,7 +21,7 @@
 .banner-container{
     flex-direction: column;
     height: auto;
-    padding: 0rem 3rem 0px;
+    padding: 0rem 2rem 0px;
 }
 
 .banner-items{
@@ -27,11 +35,22 @@
 .banner-img-con{
     height: 600px;
 }
+
+.fa-play{
+    left: -15px;
+}
+
 .img-steeker-2{
-    right: 40px;
+    right: 25px;
+    bottom: 295px;
 }
 .red-ball{
-    left: -2.1rem;
+    bottom: 252px;
+    left: -1.3rem;
+}
+
+.habit-title{
+    font-size: 2rem;
 }
 
 .habit-images{
@@ -50,6 +69,14 @@
     
 }
 
+.run-title{
+    font-size: 2rem;
+}
+
+.run-button{
+    font-weight: 600;
+    padding: .8rem 7.5rem;
+}
 
 .bmi{
     padding: 2rem 2rem 1.25rem;
@@ -61,6 +88,9 @@
     padding: 20px;
     
 }
+.bmi-title{
+    font-size: 2rem;
+}
 .bmi-chart{
     margin-left: 10px;
 
@@ -70,8 +100,13 @@
     margin-left: 10px;
 }
 
+input{
+    width: 150px;   
+}
+
+
 .activity {
-    width: 300px;
+    width: 310px;
 }
 
 .fa-caret-down{
@@ -81,6 +116,10 @@
 .success-parent{
     flex-direction: column;
 }
+
+.success-title{
+    font-size: 2rem;}
+
 .success-description{
     padding: 5px .5rem;
 }
@@ -94,7 +133,11 @@
 .meet-containar{
     padding: 10px;
 }
-  
+
+.meet-title{
+    font-size: 2rem;
+}  
+
 .meet-description{
     padding: 1rem 1rem;
 }
