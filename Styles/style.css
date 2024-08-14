@@ -22,7 +22,6 @@
 }
 .Miama-normal{
     font-family: 'Miama', sans-serif;
-    
 }
 
 /* Universal Styles  */
@@ -92,7 +91,7 @@
 }
 
 
-/* banner section start hear */
+/* banner section start here */
 
 .banner-container{
     display: flex;
@@ -194,7 +193,7 @@
 }
 
 
-/* habits section start hear  */
+/* habits section start here  */
 .habits-containar{
     background-color: black;
     padding-top: 4rem;
@@ -229,7 +228,7 @@
 }
 
 
-/* run section start hear  */
+/* run section start here  */
 
 .run-containar{
     display: flex;
@@ -268,7 +267,7 @@
 }
 
 
-/* bmi section start hear  */
+/* bmi section start here  */
 .bmi{
     color: #ffffff;
     padding: 2rem 25rem 1.25rem 17rem;
@@ -342,7 +341,7 @@ input{
 }
 
 
-/* extention section start hear */
+/* extention section start here */
 .success{
     width: 80%;
     margin: 0 auto;
@@ -385,7 +384,7 @@ input{
 }
 
 
-/* meet section start hear  */
+/* meet section start here  */
 .meet-containar{
     margin: 0 auto;
     color: #ffffff;
@@ -444,7 +443,7 @@ input{
     z-index: 4;
 }
 
-/* fitness section start hear  */
+/* fitness section start here  */
 .fitness-containar{
     background-color: rgb(26, 26, 26);
     display: flex;
@@ -475,7 +474,7 @@ input{
     padding: 5px;
 }
 
-/* footer section start hear  */
+/* footer section start here  */
 
 footer{
     background-color: rgb(26, 26, 26);
